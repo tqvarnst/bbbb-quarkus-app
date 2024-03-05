@@ -1,0 +1,18 @@
+app:
+  name: bbbb-quarkus-app
+  namespace: tqvarnst
+  virtualMachineName: quarkus-dev
+  virtualMachineNamespace: test1
+  cluster:    #
+
+git:
+  branch: main
+  repo: github.com
+  org: tqvarnst
+  name: bbbb-quarkus-app
+
+image:
+  url: quay.io/tqvarnst/quarkus-rest
+  registry:  # NOT USED
+  organization:  # NOT USED
+  name:  # NOT USED
